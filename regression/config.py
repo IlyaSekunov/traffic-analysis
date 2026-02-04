@@ -15,7 +15,7 @@ RESOURCES_DIR: Final = REGRESSION_DIR / "resources"
 # Создание папки resources при необходимости
 RESOURCES_DIR.mkdir(exist_ok=True)
 
-# Имена файлов для обучения
+# Имена файлов для обучения (по умолчанию)
 TRAIN_X_FILE: Final = PARSING_DIR / "x_data.npy"
 TRAIN_Y_FILE: Final = PARSING_DIR / "y_data.npy"
 
